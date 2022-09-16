@@ -156,6 +156,9 @@ header {
     justify-content: center;
     margin-right: 10px;
 }
+.contact-item:focus{
+    color: #2196F3;
+}
 
 
 /*Секція 1*/
@@ -485,7 +488,7 @@ color: #AFB1B8;
 margin-bottom: 30px;
 
 }
-.social-link:hover
+.social-link:hover,
 .social-link:focus{
     background-color: var(--accent-color);
     color: #FFFFFF;
@@ -510,6 +513,7 @@ align-items: center;
 justify-content: center;
 }
 
+
 .client-social{
 display: flex;
 border: 1px solid #AFB1B8;
@@ -523,14 +527,11 @@ padding: 16px 32px;
 
 }
 
-.client-social:hover
+.client-social:hover,
 .client-social:focus{
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
-
-
-
 
 /*Підвал*/
 address {
@@ -607,7 +608,7 @@ color: var(--accent-text-color);
     color:var(--accent-text-color);
     background-color:rgba(255, 255, 255, 0.1);;
 }
-.social-footer:hover
+.social-footer:hover,
 .social-footer:focus{
     background-color: var(--accent-color);
     color: #FFFFFF;
