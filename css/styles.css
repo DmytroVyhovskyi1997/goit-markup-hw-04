@@ -524,11 +524,10 @@ fill: #AFB1B8;
 text-align: center;
 justify-content: center;
 padding: 16px 32px;
-
 }
 
-.client-social:hover,
-.client-social:focus{
+.client-link:hover svg,
+.client-link:focus svg{
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
