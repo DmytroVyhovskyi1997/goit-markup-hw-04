@@ -117,6 +117,8 @@ header {
     color: var(--accent-color);
     
 }
+.contact-link:hover svg{
+    fill: #2196F3;}
 
 
 .title-link {
@@ -138,6 +140,14 @@ header {
     color: var(--accent-color);
 }
 .header-svg{
+    width: 10px;
+    height: 16px;
+    fill: #757575;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.header-symbol{
     width: 16px;
     height: 12px;
     fill: #757575;
