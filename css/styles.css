@@ -113,11 +113,12 @@ header {
 
 }
 
- .contact-link:hover{
-    color: var(--accent-color);
-    
+ .contact-link:hover,
+ .contact-link:focus{
+    color: var(--accent-color); 
 }
-.contact-link:hover svg{
+.contact-link:hover svg,
+.contact-link:focus svg{
     fill: #2196F3;}
 
 
@@ -484,7 +485,8 @@ color: #AFB1B8;
 margin-bottom: 30px;
 
 }
-.social-link:hover{
+.social-link:hover
+.social-link:focus{
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
@@ -521,7 +523,8 @@ padding: 16px 32px;
 
 }
 
-.client-social:hover{
+.client-social:hover
+.client-social:focus{
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
@@ -604,7 +607,8 @@ color: var(--accent-text-color);
     color:var(--accent-text-color);
     background-color:rgba(255, 255, 255, 0.1);;
 }
-.social-footer:hover{
+.social-footer:hover
+.social-footer:focus{
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
@@ -652,9 +656,11 @@ margin-left: 70px;
     letter-spacing: 0.03em;
     margin-top: 4px;
 }
-.photo:hover{
+.photo:hover,
+.photo:focus{
     box-shadow: var(--card-shadow);
 }
+
 /* Card*/
 
 .font-image{
